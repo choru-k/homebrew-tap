@@ -1,6 +1,6 @@
 cask "claude-zellij-whip" do
   version "0.1.0"
-  sha256 "9c6c5c454efcee3faaec5c4368175fee319022ea4faf3b9727f3df93f4babdf5"
+  sha256 "6600428a8f73fa11c0b813eea61760a66973abd3462665625083b7580fe0319c"
 
   url "https://github.com/choru-k/claude-zellij-whip/releases/download/v#{version}/ClaudeZellijWhip.zip"
   name "ClaudeZellijWhip"
@@ -10,12 +10,6 @@ cask "claude-zellij-whip" do
   depends_on macos: ">= :ventura"
 
   app "ClaudeZellijWhip.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-d", "com.apple.quarantine", "#{appdir}/ClaudeZellijWhip.app"],
-                   sudo: false
-  end
 
   zap trash: []
 end
