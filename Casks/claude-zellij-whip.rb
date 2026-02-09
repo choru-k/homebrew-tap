@@ -1,6 +1,6 @@
 cask "claude-zellij-whip" do
   version "0.1.0"
-  sha256 "6600428a8f73fa11c0b813eea61760a66973abd3462665625083b7580fe0319c"
+  sha256 "7c72f86066fb0764a672d0ebc4e183eabc353cd6dfaccf1538a77431d4185c7d"
 
   url "https://github.com/choru-k/claude-zellij-whip/releases/download/v#{version}/ClaudeZellijWhip.zip"
   name "ClaudeZellijWhip"
