@@ -11,5 +11,11 @@ cask "claude-zellij-whip" do
 
   app "ClaudeZellijWhip.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-d", "com.apple.quarantine", "#{appdir}/ClaudeZellijWhip.app"],
+                   sudo: false
+  end
+
   zap trash: []
 end
