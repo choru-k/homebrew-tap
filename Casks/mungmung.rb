@@ -8,8 +8,8 @@
 #   brew install --cask ./Casks/mungmung.rb
 
 cask "mungmung" do
-  version "0.3.1"
-  sha256 "292fee8293ae04390b4a9d43ff05ef660e6bdb13ae3eb621530c4618132445ce"
+  version "0.4.0"
+  sha256 "edae023ba9389803bb8460b406dc0f727aaf203704214bb5a2f9e911af7d2594"
 
   url "https://github.com/choru-k/mungmung/releases/download/v#{version}/MungMung-#{version}.dmg"
   name "MungMung"
