@@ -9,7 +9,7 @@
 
 cask "mungmung" do
   version "0.1.0"
-  sha256 "PLACEHOLDER"
+  sha256 "2995d2d93bc6def4fdd226b433625c268a6041e6e1b14cde6ed9f3ffd801c9dd"
 
   url "https://github.com/choru-k/mungmung/releases/download/v#{version}/MungMung-#{version}.dmg"
   name "MungMung"
