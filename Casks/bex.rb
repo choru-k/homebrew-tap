@@ -1,6 +1,6 @@
 cask "bex" do
-  version "0.3.3"
-  sha256 "bed3369c92a1719e64956201bc54393f5efeda8a4524fdade63ae54e61940da6"
+  version "0.5.0"
+  sha256 "93635cb787dc4057d13f7ffb3b6a0affac1f5678eb39c0f1d2d7a620934b8279"
 
   url "https://github.com/choru-k/bex/releases/download/v#{version}/Bex.zip"
   name "Bex"
@@ -8,10 +8,8 @@ cask "bex" do
   homepage "https://github.com/choru-k/bex"
 
   depends_on macos: ">= :ventura"
-  depends_on formula: "node"
 
   app "Bex.app"
-  binary "#{appdir}/Bex.app/Contents/Resources/bex", target: "bex"
 
   zap trash: [
     "~/Library/Application Support/com.bex.desktop",
