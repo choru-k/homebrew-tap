@@ -7,7 +7,7 @@ cask "bex" do
   desc "Grammar and expression checker powered by AI"
   homepage "https://github.com/choru-k/bex"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Bex.app"
 
