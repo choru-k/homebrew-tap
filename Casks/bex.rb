@@ -1,6 +1,6 @@
 cask "bex" do
-  version "0.8.1"
-  sha256 "9e90c26a21f53ccc5d1fc61f77ff585765b4ec654e4eede157ae292df65499d8"
+  version "0.8.2"
+  sha256 "21b0b7c2b1a951fd0311dc66befe91ba54451f15a80cc10063368427e3f070ea"
 
   url "https://github.com/choru-k/bex/releases/download/v#{version}/Bex.zip"
   name "Bex"
